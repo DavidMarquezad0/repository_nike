@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    height: 800px;
+}
+
+.aside {
+    background-color: #303236;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 171px;
+    height: 800px;
+}
+
+.aside__logo {
+    margin-top: 25px;
+}
+
+.aside__eslogan {
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    letter-spacing: 20px;
+    padding-right: 40px;
+    transform: rotate(180deg);
+    font-family: 'Cabin', sans-serif;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.main__header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.navigation>a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 35px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.text {
+    display: flex;
+    color: white;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.text__product {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'black Ops One', sans-serif;
+    text-transform: uppercase;
+    font-size: 150px;
+    height: 150px;
+}
+
+.model {
+    font-family: 'cabin', sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.text__description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.price {
+    margin-top: 60px;
+    letter-spacing: 3px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 48px;
+}
+
+.text__description>p {
+    display: flex;
+    font-family: 'cabin', sans-serif;
+    font-size: 14px;
+    width: 490px;
+    margin-top: 10px;  
+    line-height: 25px;
+    font-style: italic;
+    opacity: 80%;
+}
+
+.button {
+    margin-top: 80px;
+}
+
+.button__estilo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 59px;
+    border-radius: 34px;
+    background-color: #585B61;
+    text-decoration: none;
+    color: white;
+    font-family: 'cabin', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.division-1 {
+    position: relative;
+}
+
+.division-2 {
+    position: absolute;
+    width: 600px;
+    height: 680px;
+    margin-left: 550px;
+}
+
+.shoes {
+    width: 800px;
+    height: 695px;  
+}
